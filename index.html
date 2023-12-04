@@ -31,11 +31,12 @@ function capitalize(string){
 } 
 //works on whole string but should only work on first letter
 
-// Write a function called lastLetter that takes a string and returns the very last letter of that string:
+// Write a function called lastLetter that takes a string 
+//and returns the very last letter of that string:
 // lastLetter("abcd") should return "d"
-function lastLetter("string") {
+function lastLetter() {
     let str = "abcd";
-    let last = str.charAt(str.length - 1);
+    let last = str.substr(-1);
     console.log(last);
 }
 
